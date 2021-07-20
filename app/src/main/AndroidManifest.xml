@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yogiza.yogizabankoftsf">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bank_icon_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bank_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YogizaBankOfTSF">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dashboard"/>
+        <activity
+            android:name=".Customer_List"
+            android:label="Banking System"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Personal_Data"
+            android:label="User Details"
+            android:parentActivityName=".Customer_List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Send_To_User"
+            android:label="Transfer Money"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Trans_History"
+            android:label="Transactions"
+            android:parentActivityName=".Customer_List"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

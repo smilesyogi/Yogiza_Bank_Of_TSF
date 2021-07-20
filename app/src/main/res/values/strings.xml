@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Yogiza Bank Of TSF</string>
+    <string name="tagline">Transfer Money in a Snap</string>
+    <string name="developer">By Yogesh Chandewar</string>
+    <string name="transactions">View All Transactions</string>
+    <string name="customers">View All Customers</string>
+    <string name="user_name">User Name</string>
+    <string name="todo">TODO</string>
+    <string name="phone_numebr">Phone numebr</string>
+    <string name="_91">+91</string>
+    <string name="rs">Rs.</string>
+    <string name="balance">balance</string>
+    <string name="_dash">/-</string>
+    <string name="no_history">No history</string>
+    <string name="name1">name1</string>
+</resources>
